@@ -1,2 +1,2 @@
-# Sweater аналог twitter
+# sweater
 Spring Boot learning

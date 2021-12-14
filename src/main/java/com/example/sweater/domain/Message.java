@@ -24,9 +24,10 @@ public class Message {
         this.tag = tag;
     }
 
-    public String getAuthorName(){
-        return author !=null ? author.getUsername() : "<none>";
+    public String getAuthorName() {
+        return author != null ? author.getUsername() : "<none>";
     }
+
     public User getAuthor() {
         return author;
     }
@@ -34,6 +35,7 @@ public class Message {
     public void setAuthor(User author) {
         this.author = author;
     }
+
     public void setText(String text) {
         this.text = text;
     }
